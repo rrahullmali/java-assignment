@@ -1,0 +1,12 @@
+package Assignmnt;
+
+public class CapFirstLetter {
+	public static void main(String[] args) {
+		String p = "this is java programing";
+		String b[] = p.split(" ");
+
+		for (int a = 0; a <= b.length - 1; a++) {
+			System.out.print(b[a].substring(0, 1).toUpperCase() + b[a].substring(1) + " ");
+		}
+	}
+}

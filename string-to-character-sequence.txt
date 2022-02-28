@@ -1,0 +1,14 @@
+package Assignmnt;
+
+import java.util.Arrays;
+
+public class ChartoAlfaOrder {
+public static void main(String[] args) {
+	String g="velocity";
+	String [] b=g.split("");
+	Arrays.sort(b);
+	for (int a=0;a<=b.length-1;a++) {
+		System.out.print(" "+b[a]);
+	}
+}
+}

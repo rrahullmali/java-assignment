@@ -1,0 +1,12 @@
+package Assignmnt;
+
+public class Oddeven {
+public static void main(String[] args) {
+	int a=44;
+	
+	if(a/2*2==a) {System.out.println("even");	
+	}else {
+		System.out.println("odd");
+	}
+}
+}

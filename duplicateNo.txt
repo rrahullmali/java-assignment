@@ -1,0 +1,18 @@
+package Assignmnt;
+
+import java.util.Arrays;
+
+public class DuplicateFinder {
+public static void main(String[] args) {
+	int[] a= {12,13,14,24,27,12,500,500,14};
+	Arrays.sort(a);
+	try {
+	for (int b=0;b<=a.length-1;b++) {
+		if(a[b]==a[b+1]) {System.out.println(a[b]);}
+	}
+		
+	}catch(Exception p) {
+		System.out.println();
+	}
+}
+}

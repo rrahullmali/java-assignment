@@ -1,0 +1,17 @@
+package Assignmnt;
+
+public class AlternateCharSelect {
+	public static void main(String[] args) {
+		String p = "rahul ashwini milind punam shubham velocity ";
+		String x[] = p.split(" ");
+		System.out.print("odd =");
+		for (int a = 0; a <= x.length - 1; a = a + 2) {
+			System.out.print(" " + x[a]);
+		}
+		System.out.println();
+		System.out.print("even =");
+		for (int a = 1; a <= x.length - 1; a = a + 2) {
+			System.out.print(" " + x[a]);
+		}
+	}
+}

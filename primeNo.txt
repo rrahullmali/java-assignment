@@ -1,0 +1,19 @@
+package Assignmnt;
+
+public class Primeno {
+	public static void main(String[] args) {
+		int a = 23;
+
+		for (int b = 2; b <= a / 2; b++) {
+
+			if (a / b * b == a) {
+				System.out.println(a + " is not prime");
+				break;
+			} else {
+				if (b == a / 2) {
+					System.out.println(a + " is prime ");
+				}
+			}
+		}
+	}
+}

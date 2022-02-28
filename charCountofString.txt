@@ -1,0 +1,8 @@
+package Assignmnt;
+
+public class LengthOfChar {
+public static void main(String[] args) {
+	String k="congratulation";
+	System.out.println(k.length());
+}
+}

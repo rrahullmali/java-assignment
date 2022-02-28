@@ -1,0 +1,18 @@
+package Assignmnt;
+
+public class PrimeNumFinder {
+public static void main(String[] args) {
+	int a[]= {599,500,31,11,50};
+	for(int c=0;c<=a.length-1;c++) {
+	for (int b=2;b<=a[c]/2;b++) {
+		
+		if(a[c]/b*b==a[c]) { System.out.println(a[c]+" is not prime");
+			break;
+			}else {
+				if(b==a[c]/2) {System.out.println(a[c]+" is prime ");}
+			}
+		
+		}}
+			
+		}
+	}
