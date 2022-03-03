@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="regression">
+  <test thread-count="5" name="ww3">
+    <classes>
+      <class name="testng1.PPP"/>
+      
+      <methods>
+      <exclude name="bb"/>									
+      </methods>
+      
+      <class name="testng1.RRR"/>
+      <class name="testng1.NewTest"/>
+    </classes>
+  </test> <!-- ww3 -->
+</suite> <!-- regression -->
